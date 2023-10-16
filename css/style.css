@@ -1,3 +1,27 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(252, 192, 102);
+}
+
+.menu1{
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    margin: 0;
+}
+
+
+
+
 .search-box {
     display: flex;
     align-items: center;
@@ -21,4 +45,23 @@ button.search-button {
 
 button.search-button:hover {
     background-color: #0056b3;
+}
+
+.banner{
+    background-color: rgb(252, 192, 102);
+}
+
+.bannertext{
+    padding-top: 40px;
+}
+.bannertext button{
+    border-radius: 15px;
+}
+.bannertext button:hover{
+    background-color: #f7e898;
+}
+
+.bannerimg img{
+    width: 1080px;
+    height: 400px;
 }
